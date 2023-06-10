@@ -1,0 +1,22 @@
+{
+  "name": "expense-tracker-server",
+  "version": "1.0.0",
+  "description": "That is Expense tracker App. Now Days live-cost increase day by day, so if we don't have money management we fall looser. This App help us to manage our wealth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "phrubel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
