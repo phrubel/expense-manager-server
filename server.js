@@ -3,9 +3,13 @@ const express = require('express');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
 const cors = require('cors');
+const connectDB = require('./config/connectDB');
 
 // config dot env file
 dotenv.config();
+
+// database call
+connectDB();
 
 // rest objects
 const app = express();
